@@ -32,8 +32,3 @@ document.addEventListener('DOMContentLoaded', function(event)
   }
   
 });
-/*
-https://github.com/jonmanuel01/Test10022017/blob/master/main.js
-
-
-*/

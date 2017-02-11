@@ -1,15 +1,19 @@
-document.addEventListener('DOMContentLoaded', function(event) {
+document.addEventListener('DOMContentLoaded', function(event) 
+{
   // Button Builder
-  var ButtonCreator = function(container) {
+  var ButtonCreator = function(container) 
+  {
     this.container = container;
     this.buttons = [];
   };
 
-  ButtonCreator.prototype.appendButton = function(number) {
+  ButtonCreator.prototype.appendButton = function(number) 
+  {
     // Do not change this method, is not part of the test
     var element = document.createElement('button');
     element.innerText = 'Button #' + (number + 1);
-    element.addEventListener('click', function() {
+    element.addEventListener('click', function() 
+    {
         alert('Button #' + (number+1) + ' pressed!');
        
     });
